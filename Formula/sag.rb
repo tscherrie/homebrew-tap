@@ -1,8 +1,8 @@
 class Sag < Formula
   desc "Neural text-to-speech CLI using KittenTTS — like macOS say, but with neural voices"
   homepage "https://github.com/tscherrie/sag"
-  url "https://github.com/tscherrie/sag/archive/refs/tags/v2.1.0.tar.gz"
-  sha256 "031a23cfc5c28f40f80c6e5a56fc6426741b26d63ab179142fd500173bcecfc7"
+  url "https://github.com/tscherrie/sag/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "484a52bca45126fc7aaaac2acfe025032de2cd48c6d109d30412ec81a4d106b0"
   license "MIT"
 
   depends_on "python@3.12"
@@ -25,6 +25,6 @@ class Sag < Formula
   end
 
   test do
-    assert_match "2.1.0", shell_output("#{bin}/sag --version")
+    assert_match "2.2.0", shell_output("#{bin}/sag --version")
   end
 end
