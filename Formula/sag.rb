@@ -1,8 +1,8 @@
 class Sag < Formula
   desc "Neural text-to-speech CLI using KittenTTS — like macOS say, but with neural voices"
   homepage "https://github.com/tscherrie/sag"
-  url "https://github.com/tscherrie/sag/archive/refs/tags/v2.5.0.tar.gz"
-  sha256 "5e7eb3570c812e1864401cea2d738373a69b5ea0a6e05e040025edf69e548915"
+  url "https://github.com/tscherrie/sag/archive/refs/tags/v2.5.1.tar.gz"
+  sha256 "4378221b8d2439663ece6d0ff64c8fed87aa5346a3a6df9e41d5aebe045cdfa4"
   license "MIT"
 
   depends_on "python@3.12"
